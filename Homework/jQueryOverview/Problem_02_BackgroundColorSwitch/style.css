@@ -1,0 +1,23 @@
+div {
+    margin-bottom: 10px;
+}
+
+#color-controller {
+    padding-right: 50px;
+    float: left;
+}
+
+#list-container {
+    float: right;
+}
+
+#main {
+    width: 30%;
+}
+
+.clearfix:after {
+    height: 0;
+    display: block;
+    clear: both;
+    content: '';
+}

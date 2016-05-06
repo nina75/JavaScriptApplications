@@ -1,0 +1,18 @@
+textarea {
+    width: 500px;
+    height: 100px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th{
+    background-color: #4f9b4e;
+}
+
+th, td {
+    border: 1px solid darkgrey;
+    padding: 5px 10px;
+}

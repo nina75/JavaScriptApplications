@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Table generator</title>
+    <script src="../libs/jquery-2.2.1.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div id="main">
+        <div>
+            <label for="json">Json string: </label>
+            <br/>
+            <textarea id="json">[{"manufacturer":"BMW","model":"E92 320i","year":2011,"price":50000,"class":"Family"},{"manufacturer":"Porsche","model":"Panamera","year":2012,"price":100000,"class":"Sport"},{"manufacturer":"Peugeot","model":"305","year":1978,"price":1000,"class":"Family"}]
+            </textarea>
+        </div>
+        <div>
+            <button type="button">Generate Table</button>
+        </div>
+        <table style="display: none;">
+            <thead>
+                <tr>
+                    <th>Manufacturer</th>
+                    <th>Model</th>
+                    <th>Year</th>
+                    <th>Price</th>
+                    <th>Class</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
